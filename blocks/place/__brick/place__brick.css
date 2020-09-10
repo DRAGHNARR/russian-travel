@@ -1,0 +1,17 @@
+.place__brick {
+  display: flex;
+  margin: 48px 0 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__brick {
+    margin: 48px 0 0;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .place__brick {
+    flex-direction: column;
+    margin: 32px 0 0;
+  }
+}

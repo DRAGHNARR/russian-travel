@@ -1,0 +1,26 @@
+.cover {
+  display: flex;
+  max-width: calc(100% - 96px);
+  margin: 92px auto 0;
+  background-image: url(../../images/cover.svg);
+  background-size: cover;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    max-width: 100%;
+    margin: 92px 0 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    margin: 88px 0 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover {
+    margin: 64px 0 0;
+  }
+}

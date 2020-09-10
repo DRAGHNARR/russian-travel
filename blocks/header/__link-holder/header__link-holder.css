@@ -1,0 +1,13 @@
+.header__link-holder {
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  padding: 0 0 6px;
+}
+
+@media screen and (max-width: 320px) {
+  .header__link-holder {
+    /* ммм, пиксельхантинг :D */
+    padding: 0 0 8px;
+  }
+}
