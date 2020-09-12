@@ -1,5 +1,5 @@
 .place__paragraph {
-  margin: 0;
+  margin: 0 0 24px;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -7,8 +7,8 @@
   word-wrap: break-word;
 }
 
-.place__paragraph:first-child {
-  margin: 0 0 24px;
+.place__paragraph:last-child {
+  margin: 0;
 }
 
 @media screen and (max-width: 768px) {

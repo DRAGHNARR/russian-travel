@@ -1,8 +1,9 @@
 .cover {
+  position: relative;
   display: flex;
   max-width: calc(100% - 96px);
   margin: 92px auto 0;
-  background-image: url(../../images/cover.svg);
+  background-image: url(../../images/cover.png);
   background-size: cover;
 }
 
