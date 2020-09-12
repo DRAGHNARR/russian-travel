@@ -48,4 +48,4 @@ opacity: 0.8! Тяжело в учении, легко в бою. :D
 
 Результатом выполнения является одностраничный сайт, собравший в себе информацию о путешествиях по России.
 
-https://github.com/DRAGHNARR/russian-travel
+https://draghnarr.github.io/russian-travel/index.html
