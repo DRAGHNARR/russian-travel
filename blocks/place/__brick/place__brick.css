@@ -3,6 +3,11 @@
   margin: 48px 0 0;
 }
 
+.place__brick:first-child {
+  display: flex;
+  margin: 0;
+}
+
 @media screen and (max-width: 1024px) {
   .place__brick {
     margin: 48px 0 0;

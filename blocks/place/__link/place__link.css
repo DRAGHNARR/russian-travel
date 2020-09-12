@@ -5,7 +5,10 @@
   font-size: 18px;
   line-height: 1.22;
   color: #fff;
-  /* identical to box height, or 122% */
-
   text-decoration-line: underline;
+  transition: opacity .4s ease;
+}
+
+.place__link:hover {
+  opacity: 0.8;
 }

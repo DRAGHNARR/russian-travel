@@ -8,3 +8,15 @@
 .place:first-child {
   margin: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .place {
+    margin: 72px 0 0;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .place {
+    margin: 48px 0 0;
+  }
+}

@@ -20,8 +20,21 @@
 
 @media screen and (max-width: 550px) {
   .place__image {
-    max-width: 320px;
-    max-height: 320px;
-    margin: 32px 0 0;
+    max-width: 550px;
+    max-height: 550px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .place__image {
+    max-width: 440px;
+    max-height: 440px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .place__image {
+    max-width: 330px;
+    max-height: 330px;
   }
 }
